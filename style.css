@@ -12,6 +12,23 @@ body {
     text-decoration: none;
  }
 
+a:link {
+    color: white;
+    text-decoration: none;
+}
+a:visited {
+    color: white;
+    text-decoration: none;
+}
+a:hover {
+    color: white;
+    text-decoration: none;
+}
+a:active {
+    color: white;
+    text-decoration: none;
+}
+
 .primary-header {
     color: rgb(78, 78, 87);
     font-family: 'Lobster', cursive;
@@ -146,16 +163,20 @@ body {
 }
 
 
+.flexcontainer{
+    display: flex;
+}
 
 .left-column{
     background-color: violet;
-    flex-direction: column;
+    width: 60%;
     align-items: left;
+    padding: 25px;
     
     
 }
 .right-column{
     background-color: teal;
-    flex-direction: column;
+    width: 30%;
     align-items: right;
 }
