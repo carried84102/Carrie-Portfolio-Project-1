@@ -1,58 +1,161 @@
 body {
-    background-color: rgb(245, 241, 241);
-    padding: 0 100px;
-}
-
-.primary-header {
-    color: rgb(78, 78, 87);
-    font-family: 'Lobster', cursive;
-    display: inline;
-    border-radius: 50%;
-}
-
-.secondary-header {
-    color: rgb(78, 78, 87);
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: rgb(216, 213, 213);
+    padding: 0 200px;
 }
 
 .nav {
     padding-top: 50px;
     display:flex; 
+    font-family: 'Questrial', sans-serif;
     justify-content: space-between;
     align-items: center;
+    text-decoration: none;
+ }
 
-    }
-    
-.footer{
-    background-color: crimson;
-    display: flex; 
-    justify-content: space-around;
-    align-items: center; 
+.primary-header {
+    color: rgb(78, 78, 87);
+    font-family: 'Lobster', cursive;
+    font-size: 20px;
+    display: inline;
+    border-radius: 50%;
+    line-height: 2px;
+    margin: 75px;
 }
 
-.circle{
-    height: 25px;
-    width: 25px;
+.primary-container{
+    display: flex; 
+    justify-content: center;
+    font-family: 'Lobster', cursive;
+    color: rgb(78, 78, 87);
+    font-size: large;
+}
+
+.headshot{
+    border-radius: 47%;
+    width: 325px;
+    height: 265px; 
+    padding: 20px;
+}
+
+.hello{
+    line-height: 20px;
+}
+
+.about-me{
+    line-height: 20px; 
+}
+
+.primary-container{
+    display: flex; 
+    justify-content: center;
+    font-family: 'Lobster', cursive;
+    color: rgb(78, 78, 87);
+    font-size: large;
+}
+.call{
+    height: 50px;
+    width: 50px;
     border-radius: 50%;
     color: cyan;
-    }
-.call{
-    
 }
+
 .contact{
-
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    color: cyan;
 }
+
 .github{
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    color: cyan;
+}
+
+.whoami{
+    line-height: 20px;
+}
+
+ .summary-me{
+     display: flex;
+     justify-content: space-around;
+    }
+ 
+.button {
+        background-color: #61d0d4; 
+        border: none;
+        color: white;
+        padding: 20px;
+        height: 60px;
+        text-align: center;
+        display: inline-block;
+        font-size: 16px;
+        margin: 4px 2px;
+        border-radius: 50%;
+    }
+      
+.button2 {
+    background-color: #e5165b; 
+    border: none;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    border-radius: 50%;
+}
+
+.button3 {
+    background-color: #d99b3f;
+    border: none;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    border-radius: 50%; 
+}
+
+.footer{
+    background-color: #e5165b; 
+    display: flex; 
+    justify-content: space-evenly;
+    align-items: center; 
+    color: white;
+}
+
+.footer-content-container{
+    display: flex;
+}
+.circle {
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50px;
+    border-radius: 50%;
+    background-color: #61d0d4;
+    color: white;
+    font-size: xx-large;
+    margin-right: 5px;
+}
+
+
+
+.left-column{
+    background-color: violet;
+    flex-direction: column;
+    align-items: left;
+    
     
 }
-.whoami{
-   
+.right-column{
+    background-color: teal;
+    flex-direction: column;
+    align-items: right;
 }
-.nav-link a:hover {
-    color: #bcca99; 
-    letter-spacing: 2px;
- }
- .professional{
-
- }
- 
