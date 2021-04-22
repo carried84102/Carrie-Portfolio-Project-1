@@ -1,15 +1,17 @@
 body {
     background-color: rgb(216, 213, 213);
-    padding: 0 200px;
-}
+    padding: 0 100px;
+  
+   }
 
 .nav {
-    padding-top: 50px;
+    padding-top: 20px;
     display:flex; 
     font-family: 'Questrial', sans-serif;
     justify-content: space-between;
     align-items: center;
     text-decoration: none;
+    
  }
 
 a:link {
@@ -17,7 +19,7 @@ a:link {
     text-decoration: none;
 }
 a:visited {
-    color: white;
+    color:white;
     text-decoration: none;
 }
 a:hover {
@@ -36,7 +38,7 @@ a:active {
     display: inline;
     border-radius: 50%;
     line-height: 2px;
-    margin: 75px;
+    margin: 25px;
 }
 
 .primary-container{
@@ -48,18 +50,22 @@ a:active {
 }
 
 .headshot{
-    border-radius: 47%;
-    width: 325px;
-    height: 265px; 
+    border-radius: 50%;
+    width: auto;
+    height: 275px; 
     padding: 20px;
 }
 
 .hello{
     line-height: 20px;
+    font-size: xx-large;
 }
 
 .about-me{
     line-height: 20px; 
+    font-size: x-large;
+    padding-left: 50px;
+ 
 }
 
 .primary-container{
@@ -91,52 +97,52 @@ a:active {
 }
 
 .whoami{
-    line-height: 20px;
+    line-height: 25px;
 }
 
  .summary-me{
      display: flex;
      justify-content: space-around;
+     text-align: center;
+     padding: 20px; 
     }
  
 .button {
         background-color: #61d0d4; 
         border: none;
         color: white;
-        padding: 20px;
-        height: 60px;
-        text-align: center;
-        display: inline-block;
-        font-size: 16px;
+        width: 150px;
+        height: 150px;
         margin: 4px 2px;
         border-radius: 50%;
+
     }
-      
+
+.button-text{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 150px;
+}
+
 .button2 {
     background-color: #e5165b; 
     border: none;
     color: white;
-    padding: 20px;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    font-size: 16px;
+    width: 150px;
+    height: 150px;
     margin: 4px 2px;
     border-radius: 50%;
 }
-
-.button3 {
+.button3{
     background-color: #d99b3f;
     border: none;
     color: white;
-    padding: 20px;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    font-size: 16px;
+    width: 150px;
+    height: 150px;
     margin: 4px 2px;
     border-radius: 50%; 
-}
+    }
 
 .footer{
     background-color: #e5165b; 
@@ -144,6 +150,7 @@ a:active {
     justify-content: space-evenly;
     align-items: center; 
     color: white;
+    font-family: 'Gentium Book Basic', serif;
 }
 
 .footer-content-container{
@@ -158,6 +165,7 @@ a:active {
     border-radius: 50%;
     background-color: #61d0d4;
     color: white;
+    font-family: 'Questrial', sans-serif;
     font-size: xx-large;
     margin-right: 5px;
 }
@@ -168,15 +176,34 @@ a:active {
 }
 
 .left-column{
-    background-color: violet;
     width: 60%;
     align-items: left;
     padding: 25px;
-    
-    
+    font-family: 'allura', sans-serif;
 }
+
+
 .right-column{
-    background-color: teal;
     width: 30%;
-    align-items: right;
+    text-align: center;
+    align-items: center;
+
+}
+.professional{
+    display: flex;
+
+}
+.button4{
+    background-color: #61d0d4; 
+        border: none;
+        color: white;
+        width: 150px;
+        height: 150px;
+        margin: 4px 2px;
+        border-radius: 50%;
+        text-transform: uppercase;
+        font-family: 'gentium book basic', serif; 
+   
+
+
 }
