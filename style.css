@@ -187,7 +187,7 @@ a:active {
     width: 30%;
     text-align: center;
     align-items: center;
-
+    margin: 30px;
 }
 .professional{
     display: flex;
@@ -203,7 +203,33 @@ a:active {
         border-radius: 50%;
         text-transform: uppercase;
         font-family: 'gentium book basic', serif; 
-   
-
-
 }
+
+.exclamation{
+    height: 80px;
+    width: 80px;
+    border-radius: 50%;
+    display: inline;
+    color: #e5165b;
+}
+
+.languages{
+    height: 80px;
+    width: 80px;
+    border-radius: 50%;
+    display: inline;
+    color: #e5165b;
+}
+/* .resumecircle1{
+    height: 50px;
+    width: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    background-color: #e5165b;
+    color: white;
+    font-family: 'Questrial', sans-serif;
+    font-size: xx-large;
+    margin-right: 5px;
+} */
